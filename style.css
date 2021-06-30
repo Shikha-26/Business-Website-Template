@@ -1,0 +1,665 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+body {
+    color: #213546;
+    background: #eeeeee;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #4F84C4;
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #00539C;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 1050px;
+}
+
+
+/*******************************/
+/********** Header CSS *********/
+/*******************************/
+.header {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+@media (min-width: 1200px) {
+    .header .container-fluid {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+.header .brand {
+    position: relative;
+}
+
+.header .brand img {
+    width: 100%;
+    max-width: 150px;
+    height: 100%;
+    max-height: 100px;
+}
+
+.header .topbar {
+    position: relative;
+    text-align: right;
+}
+
+.header .topbar .topbar-col {
+    display: inline-block;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.header .topbar-col a {
+    color: #213546;
+    font-size: 13px;
+}
+
+.header .topbar-col a i {
+    margin-right: 10px;
+    color: #4F84C4;
+}
+
+.header .topbar-social {
+    position: relative;
+}
+
+.header .topbar-social a {
+    display: inline-block;
+}
+
+.header .topbar-social a i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: #bbbbbb;
+}
+
+.header .topbar-social a:last-child i {
+    margin: 0;
+}
+
+.header .topbar-social a:hover i {
+    color: #4F84C4;
+}
+
+.header .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #bbbbbb;
+}
+
+.header .dropdown-menu a.active {
+    color: #4F84C4;
+}
+
+@media (min-width: 992px) {
+    .header .navbar {
+        background: #ffffff !important;
+    }
+
+    .header .navbar-brand {
+        display: none;
+    }
+
+    .header .navbar-light a.nav-link {
+        position: relative;
+        padding: 8px 10px;
+        color: #213546;
+        font-size: 16px;
+        z-index: 1;
+    }
+
+    .header .navbar-light a.nav-link:hover,
+    .header .navbar-light a.nav-link.active {
+        color: #4F84C4;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .header .brand {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .header .topbar {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .header .topbar .topbar-col {
+        margin: 0;
+    }
+
+    .header .topbar .topbar-social {
+        margin-top: 5px;
+    }
+
+    .header .navbar {
+        background: #ffffff !important;
+        border: 1px solid #eeeeee;
+        z-index: 1;
+    }
+
+    .header a.nav-link {
+        padding: 5px 0;
+    }
+
+    .header .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+.header .navbar .btn {
+    position: relative;
+    margin-left: 15px;
+    padding: 12px 25px 10px 25px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(#4F84C4, #00539C);
+    transition: .5s;
+}
+
+.header .navbar .btn:hover {
+    background: linear-gradient(#00539C, #4F84C4);
+}
+
+.header .navbar .btn i {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+@media (max-width: 992px) {
+    .header .navbar .btn {
+        margin: 15px 0 10px 0;
+    }
+}
+
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.page-header {
+    margin-bottom: 45px;
+    padding: 80px 0;
+    border: 2px solid black;
+    text-align: center;
+    background:url(bannerfinal.jpg);
+     background-size:1886px 353px;
+     background-repeat: no-repeat;
+
+}
+
+.page-header h2 {
+    color:black;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.page-header a {
+    position: relative;
+    padding: 0 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color:black;
+}
+
+.page-header a::after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    top: 50px;
+    right: -6px;
+    border-radius: 7px;
+    background:black;
+}
+
+.page-header a:last-child::after {
+    display: none;
+}
+/*******************************/
+/******* Support CSS *******/
+/*******************************/
+.contact hr
+{
+  width:200px;
+  float:left;
+}
+.socials
+{
+  padding:0px;
+  margin-right:10px;
+}
+.phone
+{
+margin-right: 280px;
+}
+.heading
+{
+  text-align: center;
+  margin-right: 280px;
+}
+
+
+
+/*******************************/
+/******* Contact Us CSS *******/
+/*******************************/
+  .contact-form
+  {
+      margin-top:70px;
+  }
+input[type=text], select,textarea{
+  width: 50%; /* Full width */
+  padding: 10px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit]
+{
+  background-color: #4F84C4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+/* When moving the mouse over the submit button, add a darker color */
+input[type=submit]:hover {
+  background-color:#00539C;
+}
+
+
+
+
+/*******************************/
+/********* Map & content CSS *********/
+/*******************************/
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.contact h2.section-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+}
+
+.contact h2.section-title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    border-radius: 0 100% 100% 0;
+}
+
+.contact .contact-info {
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+.contact .contact-info iframe {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.contact .contact-info h3 {
+    color: #3f4b5a;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact .contact-info h3 span {
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.contact .contact-info p {
+    color: #3f4b5a;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact .editor-info {
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+@media (min-width: 992px) {
+    .contact .editor-info {
+        padding-left: 30px;
+    }
+}
+.contact .editor-text {
+    width: auto;
+}
+
+.contact .editor-text h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact .editor-text a {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+
+/*******************************/
+/********* Testimonial CSS *********/
+/*******************************/
+.Testimonials h2.section-title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+    float:left;
+    color: #00539C
+}
+
+.Testimonials h2.section-title::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    border-radius: 0 100% 100% 0;
+}
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, {
+  color: #3e4555;
+}
+.team4 h6 {
+  color: black;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+    color: black;
+}
+
+.team4 .subtitle {
+    color:black;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color:black;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
+
+
+
+/*******************************/
+/********* Footer CSS *********/
+/*******************************/
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #35404f;
+    color: #878c94;
+}
+.footer .title{text-align: left;color:#fff;font-size:25px;}
+
+
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.footer .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.footer .acount-icon .fa{margin-right:25px;}
+
+
+.footer .image  {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color:#878c94;
+    border: solid 1px #fff;
+    float:left;
+}
+
+.footer .Latest Addition
+{
+  margin:0px;padding:0px;list-style-type:none
+}
+
+.footer .footer-button
+{
+  position: relative;
+  margin-left: 3px;
+  padding: 12px 25px 10px 25px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(#4F84C4, #00539C);
+  transition: .5s;
+}
+.footer .footer-button:hover
+{
+    background: linear-gradient(#00539C, #4F84C4);
+}
+.footer .footer-button:hover i
+{
+  font-size: 16px;
+  margin-right:2px;
+}
+@media (max-width: 992px)
+{
+    .footer .footer-button
+    {
+        margin: 15px 0 10px 0;
+    }
+}
+.footer-links
+{
+        z-index: 1;
+}
+
+    .footer-links a
+     {
+       position: relative;
+       padding: 0 12px;
+       color:#878c94;
+       float:right;
+       top:-20px;
+    }
+
+    
+
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.footer {
+    position: relative;
+    padding-top: 90px;
+    background: #2c3035;
+}
+
+.footer .footer-about,
+.footer .footer-link {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+@media(min-width: 992px) {
+    .footer .container:first-child {
+        max-width: 960px;
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-about,
+    .footer .footer-link {
+        padding: 0 30px;
+    }
+}
+
+.footer .footer-about h2,
+.footer .footer-link h2 {
+    position: relative;
+    margin-bottom: 45px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.footer .footer-about h2::after,
+.footer .footer-link h2::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #999999, #ffffff, #999999);
+    border-radius: 0 100% 100% 0;
+}
+
+.footer .footer-about p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.footer .footer-about p i {
+    width: 20px;
+}
+
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #999999;
+
+}
+
+.footer .footer-link a::before {
+    position: relative;
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .footer-link a:hover {
+    color: #ffffff;
+}
+
+.footer .copyright {
+    padding: 15px;
+    border-top: 1px solid #3b3e43;
+}
+
+.footer .copyright p {
+    margin: 0;
+    font-size: 14px;
+    color: #999999;
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+.footer .copyright p a {
+    color: #999999;
+}
+
+.footer .copyright p a:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .footer .copyright p,
+    .footer .copyright .col-md-6:last-child p {
+        margin: 5px 0;
+        text-align: center;
+    }
+}
